@@ -3,8 +3,8 @@ module.exports = {
   author: 'Adarsh N B', // Required
   description: 'Full-stack Web Developer',
   primaryColor: '#3498db', // Required
-  showHeaderImage: true,
-  showShareButtons: true,
+  showHeaderImage: false,
+  showShareButtons: false,
   postsPerPage: 10, // Required
   social: {
     website: 'https://adarshnb.com',
@@ -12,6 +12,6 @@ module.exports = {
     twitter: 'https://twitter.com/adarshnb',
     linkedin: 'https://www.linkedin.com/in/adarsh-nb-93104729/',
   },
-  pathPrefix: '/devblog',
+  pathPrefix: '/blog',
   siteUrl: 'https://adarshnb.com/blog/',
 };

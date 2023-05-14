@@ -49,25 +49,6 @@ module.exports = {
         trackingId: "UA-27298834-1",
       },
     },
-    `gatsby-plugin-feed`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      feeds: [
-        {
-	  output: '/rss.xml',
-	  title: userConfig.title
-	}
-      ],
-      options: {
-        name: userConfig.title,
-        short_name: userConfig.title,
-        start_url: userConfig.siteUrl,
-        background_color: '#fff',
-        theme_color: userConfig.primaryColor,
-        display: 'minimal-ui',
-        icon: 'src/main.jpg',
-      },
-    },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
   ],

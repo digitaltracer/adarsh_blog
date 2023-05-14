@@ -41,14 +41,12 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-sharp`,
+      resolve: `gatsby-transformer-sharp`,
       options: {
-        // Defaults used for gatsbyImageData and StaticImage
-        defaults: {},
-        // Relates to "options.failOn" in https://sharp.pixelplumbing.com/api-constructor#parameters
-        failOn: `warning`,
+        // The option defaults to true
+        checkSupportedExtensions: false,
       },
     },
     {
